@@ -1,0 +1,12 @@
+
+
+.visual .inner {
+    width: 100%;
+    height: 680px;
+    /* margin-top: 181px; */
+    background-image: url('../images/20230116_165944.png');
+    background-position: center;
+    background-size: cover;
+    margin: 181px 0 0 0;
+    
+  }  

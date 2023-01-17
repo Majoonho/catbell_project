@@ -1,0 +1,153 @@
+/* COMMON */
+body { 
+    color: #333;
+    font-size: 16px ;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+img {
+    display: block;
+
+}
+
+a {
+    text-decoration: none;
+    color: #656565;
+    font-weight: 700;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+}
+
+header {
+    width: 100%;
+    background-color: #f6f5f0;
+    border-bottom: 1px solid #c8c8c8;
+    position: fixed;
+    top: 0;
+    padding: 10px 0;
+    z-index: 9;
+    
+    
+    }
+
+header > .inner {
+
+    height: 160px;
+    
+    
+    }
+
+.inner {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;}
+
+
+
+
+header .sub-menu {
+    position: absolute;
+    top: 55px;
+    right: 10px;
+    display: flex;
+}
+
+
+header .main-menu {
+    height: 200px;
+    display: flex;
+    position: relative;
+
+}
+
+
+
+header .search {
+
+    height: 34px;
+    position: absolute;
+    top: 115px;
+    right: 0;
+    }
+
+header .search input {
+    width: 190px;
+    height: 34px;
+    padding: 4px 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+    color: #777;
+    font-size: 12px;
+       }
+
+header .search input::placeholder {
+    background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png) ;
+    background-size: contain;
+    background-position:  1px center;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-indent: -70px;
+}
+    
+
+
+header .main-menu {
+    display: flex;
+    position: absolute;
+    height: auto;
+    top: 100px;
+   
+    
+}
+
+header .main-menu .menu {
+    display: flex;
+    font-family: Arial, sans-serif;
+   
+}
+header .main-menu ul.menu {
+    position: relative;
+    display: flex;
+    width: 100%;
+    top: 13px;
+    left:50px;
+}
+
+header .main-menu ul.menu li {
+    padding-right: 70px;
+    font-size: 16px;
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    bottom: 10px;
+    left:-45px
+    
+}
+
+header .main-menu ul.menu li::before {
+    content:"";
+    display: block;
+    width:2px;
+    height:20px;
+    background-color : #e5e5e5;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: -35px;
+    margin: auto;
+    }
+
+header .main-menu ul.menu li:first-child::before{
+        display: none;
+    }
